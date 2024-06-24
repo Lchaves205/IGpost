@@ -1,0 +1,74 @@
+body {
+    background: #BDBDBD;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Ensure consistent font */
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background: white;
+    padding: 10px;
+    margin: auto;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 10px; /* Adjust padding for centering */
+}
+
+div.post {
+    background: white;
+    margin-top: 10px;
+    border: 1px solid #ddd; /* Ensure visibility of each post */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+div.post img {
+    width: 100%;
+    display: block; /* Ensure images fill their container */
+}
+
+div.post h2 {
+    padding: 10px;
+    margin: 0;
+}
+
+div.post p {
+    padding: 10px;
+    margin: 0;
+}
+
+div.container {
+    width: 600px;
+    margin: auto;
+}
+
+div.post .postheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center align items vertically */
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Add border below header */
+}
+
+div.post .postheader div:first-child {
+    flex: 1; /* Use flex to distribute space */
+}
+
+div.post .postheader div:last-child {
+    text-align: right;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.move-right {
+    margin-left: auto; /* Adjust to move SVG to the right */
+}
